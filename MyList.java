@@ -2,7 +2,7 @@ package homeworkFall2015;
 
 public class MyList<T> {
 
-	class Node<T> {
+	class Node<T> { //изменил видимость для использования в MyStack
 		T data;
 		Node<T> next;
 	}

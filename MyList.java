@@ -2,7 +2,7 @@ package homeworkFall2015;
 
 public class MyList<T> {
 
-	private class Node<T> {
+	class Node<T> {
 		T data;
 		Node<T> next;
 	}
